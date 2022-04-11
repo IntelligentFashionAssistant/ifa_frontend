@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:ifa_frontend/widgets/custom_app_bar.dart';
 import 'package:ifa_frontend/widgets/custom_navigation_bar.dart';
 import 'package:ifa_frontend/widgets/garment_list_widget.dart';
 import 'package:ifa_frontend/widgets/input.dart';
 
 class SearchScreen extends StatefulWidget {
+  const SearchScreen({Key? key}) : super(key: key);
+
 
   @override
   _SearchScreenState createState() => _SearchScreenState();
@@ -24,7 +27,7 @@ class _SearchScreenState extends State<SearchScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: CustomAppBar("search page"),
-      bottomNavigationBar: CustomNavigationBar(),
+      bottomNavigationBar: const CustomNavigationBar(),
       body: Column(
         children: [
           Container(

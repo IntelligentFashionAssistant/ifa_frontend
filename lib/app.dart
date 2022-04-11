@@ -16,8 +16,8 @@ class App extends StatelessWidget {
           headline1: TextStyle(color: Colors.black87),
         ),
         colorScheme: const ColorScheme.light(
-          primary: Color(0xffFFEBAB),
-          secondary: Color(0xffF5D0DE),
+          primary: Color(0xffFFEBAB)
+          // secondary: Color(0xffF5D0DE),
         )
         ,
       ),
